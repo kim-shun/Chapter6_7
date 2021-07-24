@@ -4,25 +4,27 @@ public class Dog implements Pet {
 
 	@Override
 	public void eat() {
-		// TODO 自動生成されたメソッド・スタブ
+		eat("ご飯");
 
 	}
 
 	@Override
 	public void eat(String food) {
-		// TODO 自動生成されたメソッド・スタブ
+		System.out.println(food + "を食べるよ！おいしいワン!");
+		System.out.println("お腹が一杯になったワン");
 
 	}
 
 	@Override
 	public void playToy() {
-		// TODO 自動生成されたメソッド・スタブ
+		playToy("おもちゃ");
 
 	}
 
 	@Override
 	public void playToy(String toy) {
-		// TODO 自動生成されたメソッド・スタブ
+		System.out.println(toy + "で遊ぶよ。楽しいワン");
+		System.out.println("遊んでお腹が減ったワン");
 
 	}
 
