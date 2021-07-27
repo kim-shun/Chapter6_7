@@ -12,6 +12,11 @@ public class StringSample {
 		System.out.println("str2 = " + str2);
 		System.out.println("str2.length() → " + str2.length());
 
+		String str3 = "ABCdef";
+		System.out.println("str3 = " + str3);
+		
+		String str3Tolower = str3.toLowerCase();
+		System.out.println("str3.toLowerCase() → " + str3Tolower);
 	}
 
 }
