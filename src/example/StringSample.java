@@ -12,11 +12,19 @@ public class StringSample {
 		System.out.println("str2 = " + str2);
 		System.out.println("str2.length() → " + str2.length());
 
+		System.out.println("----------------------");
 		String str3 = "ABCdef";
 		System.out.println("str3 = " + str3);
 		
 		String str3Tolower = str3.toLowerCase();
 		System.out.println("str3.toLowerCase() → " + str3Tolower);
+		
+		System.out.println("----------------------");
+		String str4 = "ABCdef123ＡＢＣｄｅｆ";
+		System.out.println("str4 = " + str4);
+		
+		String str4Tolower = str4.toLowerCase();
+		System.out.println("str4.toLowerCase() → " + str4Tolower);
 	}
 
 }
