@@ -21,6 +21,15 @@ public class ListLoopSample２ {
 		pet1.eat();
 		pet1.playToy();
 		pet2.eat();
+		
+		System.out.println();
+		System.out.println("--- 拡張for文を使ってリストから要素を取り出す ---");
+		
+		for (Pet pet : petList) {
+			pet.eat();
+			pet.playToy();
+		}
+		
 
 	}
 
