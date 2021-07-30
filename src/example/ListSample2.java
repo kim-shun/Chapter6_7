@@ -12,6 +12,17 @@ public class ListSample2 {
 		
 		catList.add(tama);
 		catList.add(mike);
+		
+		Cat cat1 = catList.get(0);
+		Cat cat2 = catList.get(1);
+		
+		System.out.println("----- Listから取り出した先頭のCat型のインスタンスメソッドを呼び出す -----");
+		cat1.eat();
+		cat1.playToy();
+		
+		System.out.println("----- Listから取り出した2件目のCat型のインスタンスメソッドを呼び出す -----");
+		cat2.eat();
+		cat2.playToy();
 
 	}
 
