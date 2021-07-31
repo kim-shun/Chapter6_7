@@ -12,6 +12,10 @@ public class MapSample {
 		fruitsMap.put("みかん", 150);
 		fruitsMap.put("ばなな", 250);
 		
+		System.out.println("りんご:" + fruitsMap.get("りんご"));
+		System.out.println("みかん:" + fruitsMap.get("みかん"));
+		System.out.println("ばなな:" + fruitsMap.get("ばなな"));
+		
 
 	}
 
