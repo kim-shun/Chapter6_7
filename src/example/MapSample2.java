@@ -11,6 +11,10 @@ public class MapSample2 {
 		Pet pet1 = new Cat();
 		Pet pet2 = new Dog();
 		
+		petMap.put("佐藤さん", pet1);
+		petMap.put("鈴木さん", pet2);
+		petMap.put("田中さん", new Cat());
+		
 
 	}
 
