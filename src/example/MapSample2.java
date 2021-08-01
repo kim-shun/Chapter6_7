@@ -15,6 +15,10 @@ public class MapSample2 {
 		petMap.put("鈴木さん", pet2);
 		petMap.put("田中さん", new Cat());
 		
+		System.out.println();
+		System.out.println("--- Mapから取り出した鈴木さんのペットに、ご飯をあげます ---");
+		Pet petOwnedBySuzuki = petMap.get("鈴木さん");
+		petOwnedBySuzuki.eat();
 
 	}
 
