@@ -19,6 +19,16 @@ public class MapSample2 {
 		System.out.println("--- Mapから取り出した鈴木さんのペットに、ご飯をあげます ---");
 		Pet petOwnedBySuzuki = petMap.get("鈴木さん");
 		petOwnedBySuzuki.eat();
+		
+		System.out.println();
+		System.out.println("--- Mapから取り出した田中さんのペットに、ご飯をあげます ---");
+		Pet petOwnedByTanaka = petMap.get("田中さん");
+		petOwnedByTanaka.eat();
+		
+		System.out.println();
+		System.out.println("--- Mapから取り出した佐藤さんのペットに、ご飯をあげます ---");
+		Pet petOwnedBySato = petMap.get("佐藤さん");
+		petOwnedBySato.eat();
 
 	}
 
